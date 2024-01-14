@@ -23,5 +23,11 @@ module.exports = {
   rules: {
     '@typescript-eslint/explicit-function-return-type': 'off',
   },
-  ignorePatterns: ['.eslintrc.cjs', 'vite.config.ts'],
+  ignorePatterns: [
+    '.eslintrc.cjs',
+    'vite.config.ts',
+    'tailwind.config.js',
+    'postcss.config.js',
+    'vite-env.d.ts',
+  ],
 };
